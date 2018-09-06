@@ -1,0 +1,67 @@
+body {
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+}
+
+div.App {
+  max-width: 60%;
+  margin: 100px auto;
+  background: #fff;
+  color: #000;
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input.forminput {
+  margin-right: 10px;
+}
+
+span.tasktitle, span.taskitem {
+  margin-right: 10px;
+  min-width: 170px;
+  display: inline-grid;
+}
+
+h3 {
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+button#add {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%);
+}
