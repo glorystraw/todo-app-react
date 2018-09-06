@@ -11,5 +11,5 @@ You can:
 My codeopen with this app: https://codepen.io/glorystraw/pen/gdGPPP
 
 TODO
-- [] Sorting
-- []  Basic Design
+- [ ] Sorting
+- [ ]  Basic Design
