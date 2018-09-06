@@ -1,4 +1,3 @@
-# todo-app_react
 ## Basic ToDo app on ReactJS
 
 You can: 
