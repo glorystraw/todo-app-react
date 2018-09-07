@@ -6,7 +6,6 @@ import CreateTodo from  './components/create-todo';
 import './App.css';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const todos = [];
 class App extends Component {
 
 constructor(props) {
@@ -14,7 +13,7 @@ constructor(props) {
   super(props);
 
   this.state = {
-    todos
+    todos : []
   };
 }
 
@@ -33,7 +32,7 @@ componentDidMount() {
     <h1>Glorystraw Todo List</h1>
     <h3>Add Task With Descrtiption</h3>
     <CreateTodo
-      todos={this.state.todos}
+      todos={this.state.todos.sort((a,b) => b.TaskTitle > a.TaskTitle ? 1 :  -1)}
       createTask={this.createTask.bind(this)}
       />
     <TodosList
@@ -77,7 +76,7 @@ componentDidMount() {
   }
 
 //Set our existing todos to localStorage
-  componentWillUpdate(nexProps, nextState) {
+  componentWillUpdate(nextProps, nextState) {
     localStorage.setItem('todos', JSON.stringify(nextState.todos));
   }
 
