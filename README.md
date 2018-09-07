@@ -2,15 +2,14 @@
 
 You can: 
 
-* Add a task with title
-* Edit a task
-* Mark a task as completed
-* Remove a task
-* Persist tasks between working sessions with [React Simple Storage](https://www.npmjs.com/package/react-simple-storage)
+- [x] Add a task with title
+- [x] Edit a task
+- [x] Mark a task as completed
+- [x] Remove a task
+- [x] Persist tasks between working sessions with LocalStorage
 
 My codeopen with this app: https://codepen.io/glorystraw/pen/gdGPPP
 
 TODO
-* Sorting
-* (App works without persisting tasks between working sessions in codeopen)
-* Basic Design
+- [ ] Sorting
+- [ ]  Basic Design
