@@ -7,9 +7,9 @@ You can:
 - [x] Mark a task as completed
 - [x] Remove a task
 - [x] Persist tasks between working sessions with LocalStorage
+- [x] List tasks in sorted in reverse order by task title
 
 My codeopen with this app: https://codepen.io/glorystraw/pen/gdGPPP
 
 TODO
-- [ ] Sorting
 - [ ]  Basic Design
